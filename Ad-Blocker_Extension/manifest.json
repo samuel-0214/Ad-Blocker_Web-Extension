@@ -1,0 +1,13 @@
+{
+    "name" : "Sams Ad-Blocker",
+    "version" : "1.0",
+    "description" : "Sams Ad-Blocker for chrome",
+    "permissions" : ["webRequest","webRequestBlocking","<all_urls>"],
+    "background" : {
+        "scripts" : ["background.js"]
+    },
+    "icons" : {
+        "128" : "two.png"
+    },
+    "manifest_version" : 2
+}
